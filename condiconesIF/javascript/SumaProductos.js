@@ -22,12 +22,12 @@ function Calcularprecio(){
 
     if( Total < presupuesto) {
 
-        Imprimirtotal.innerText = Total;
+        Imprimirtotal.innerText = Total + " " + "Total de la compra";
 
         Imprimirmensaje.innerText = "Si puedo comprar los articulos";
 
     } else {
-        Imprimirtotal.innerText = Total;
+        Imprimirtotal.innerText = Total + " " + "Total de la compra";
 
         Imprimirmensaje.innerText = "No puedo realizar la compra";
      }
