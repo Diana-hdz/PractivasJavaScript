@@ -20,11 +20,7 @@ function calificaciones(){
 
         Imprimirresultado.innerText = "El resultado de tu calificación es : C";
 
-    } if(selectcalificacion == 7){
-
-        Imprimirresultado.innerText = "El resultado de tu calificaión es : D ";
-
-    }if(selectcalificacion == 6){
+    } if(selectcalificacion == 7 || selectcalificacion == 6){
 
         Imprimirresultado.innerText = "El resultado de tu calificaión es : D ";
 
