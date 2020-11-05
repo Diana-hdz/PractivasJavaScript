@@ -9,7 +9,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body onload="Comparacionnumerospares">
+  <body >
+
+    <div class="container">
+      <div class="jumbotron">
+        <div class="form-group">
+          <label for="">Ingresa el numero</label>
+          <input type="number"
+            class="form-control" name="" id="num1" aria-describedby="helpId" placeholder="ingresa el numero">
+        </div>
+        <button type="button" name="" id="resultado" onclick="comparacion()" class="btn btn-primary" btn-lg btn-block>COMPARAR</button>
+        <div class="alert alert-danger" role="alert" id="Imprimirresultado"></div>
+      </div>
+    </div>
       
     <!-- Optional JavaScript -->
     <script src="../javascript/numerosPares.js"></script>

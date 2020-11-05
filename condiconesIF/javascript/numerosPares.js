@@ -1,13 +1,18 @@
-function Comparacionnumerospares(){
+function EventListener(){
+    document.getElementById("resultado").addEventListener("click", comparacion());
+ }
+ function comparacion() {
 
-    var NumeroPar = 60;
+    var num1 = Number(document.getElementById("num1").value);
 
-    if( NumeroPar %2 == 0){
-        console.log(" Es un numero Par");
+    var Imprimirresultado = document.getElementById("Imprimirresultado");
+
+    if( num1 %2 == 0){
+        Imprimirresultado.innerText = "Es un número Par";
 
     }
     else
     {
-        console.log(" No es un numero Par ")
+        Imprimirresultado.innerText = "No es un numero Par ";
     }
 }
