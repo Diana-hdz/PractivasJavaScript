@@ -11,8 +11,8 @@ function comparar(){
 
     if ( num1 % num2 == 0){
         Imprimircomaparacion.innerText = "El primer número es multiplo del segundo número "
-    }
-    else if( num2 % num1 == 0){
-        Imprimircomaparacion.innerText = "El segundo número es multiplo del primer número"
-    }
+    } else {
+
+        Imprimircomaparacion.innerText = "El primer número no es multiplo del segundo número"
+     }
 }
