@@ -3,52 +3,47 @@ function  EventListener(){
 }
 function Calcularcosto(){
 
-    var edad = Number(document.getElementById("edad").value);
-
-    var selectTipodepoliza = document.getElementById("Tipodepoliza").value;
-
-    var selectalcohol = document.getElementById("alcohol").value;
-
-    var selectlentes = document.getElementById("lentes").value;
-
-    var selectenfermedad = document.getElementById("enfermedad").value;
-
-    var costo = document.getElementById("costo");
-
-    var cargo = document.getElementById("cargo");
-
+    var Tipopoliza = String (document.getElementById("Tipopoliza").value);
+    var costopoliza =String(document.getElementById("costopoliza").value);
+    var cargos = String(document.getElementById("cargos").value);
     var TotalPoliza = document.getElementById("TotalPoliza");
+    var CargosAdicionales = document.getElementById("CargosAdicionales");
+    var cargo = 0;
+    var preciofinal = 0;
 
-    var cargoaños, bebida, lente, enfermedades = 0; 
-
-    if(selectTipodepoliza == 1 ){
-       selectTipodepoliza = 1200;
-       costo.innerText = "Costo de Poliza" + costo;
-       TotalPoliza.innerText = costo + cargo;
-    } else {
-        selectTipodepoliza = 950;
-        costo.innerText =  "Costo de Poliza" + costo;
-        TotalPoliza.innerText = costo + cargo;
-    }if(selectalcohol == 1){
-        bebida = ( costo  * 0.10);
-        cargo.innerText = costo + alcohol;
-        TotalPoliza.innerText = costo + cargo;
-    }if(selectlentes == 1){
-lente = ( costo * 0.5);
-cargo.innerText = costo + lente;
-TotalPoliza.innerText = costo + cargo;
-    }if(selectenfermedad == 1){
-        enfermedad == ( costo * 0.5);
-        cargo.innerText = costo + enfermedad;
-        TotalPoliza.innerText = costo + cargo;
-    }if(edad > 40){
-cargoaños = (costo * 0.20);
-cargo.innerText = costo + cargoaños;
-TotalPoliza.innerText = costo + cargo;
-    }else{
-        cargoaños = (costo * 0.10)
-        cargo.innerText = costo + cargoaños;
-        TotalPoliza.innerText = costo + cargo;
+    if (Tipopoliza == "1" && costopoliza == "1" && cargos == "1"){
+        cargo= (1200 * 0.10);
+        preciofinal= (1200 + cargo);
+     
+        } else if(Tipopoliza == "1" && costopoliza =="1" && cargos == "2"){
+        cargo = (1200 * 0.5);
+        preciofinal= (1200 + cargo);
+    }else if(Tipopoliza == "1" && costopoliza =="1" && cargos == "3"){
+        cargo = (1200 * 0.5);
+        preciofinal= (1200 + cargo);
+    }else if(Tipopoliza == "1" && costopoliza =="1" && cargos == "4"){
+        cargo = (1200 * 0.20);
+        preciofinal= (1200 + cargo);
+    }else if(Tipopoliza == "1" && costopoliza =="1" && cargos == "5"){
+        cargo = (1200 * 0.10);
+        preciofinal= (1200 + cargo);
+    }else if(Tipopoliza == "2" && costopoliza =="2" && cargos == "1"){
+        cargo = (950 * 0.10);
+        preciofinal= (950 + cargo);
+    }else if(Tipopoliza == "2" && costopoliza =="2" && cargos == "2"){
+        cargo = (950 * 0.5);
+        preciofinal= (950 + cargo);
+    }else if(Tipopoliza == "2" && costopoliza =="2" && cargos == "3"){
+        cargo = (950 * 0.5);
+        preciofinal= (950 + cargo);
+    }else if(Tipopoliza == "2" && costopoliza =="2" && cargos == "4"){
+        cargo = (950 * 0.20);
+        preciofinal= (950 + cargo);
+        
+    }else if(Tipopoliza == "2" && costopoliza =="2" && cargos == "5"){
+        cargo = (950 * 0.10);
+        preciofinal= (950 + cargo);
     }
-
+    
+    TotalPoliza.innerText = "Total de la Poliza:" + " " + preciofinal ;
 }

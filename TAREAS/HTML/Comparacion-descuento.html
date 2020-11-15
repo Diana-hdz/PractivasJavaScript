@@ -13,49 +13,40 @@
       <div class="container">
           <div class="jumbotron">
               <h1 class="text-center" style="color: rgb(4, 95, 34);">Poliza de Seguro</h1>
-              <div class="form-group">
-                <label for="">Ingresa tu edad</label>
-                <input type="number"
-                  class="form-control" name="" id="edad" aria-describedby="helpId" placeholder="Ingresa tu edad">
-              </div>
+              
               <div class="form-group">
                 <label for="">Tipo de poliza</label>
-                <select clas
-                s="form-control" name="" id="Tipodepoliza">
-                  <option>Selecciona una opción</option>
+                <select class="form-control" name="" id="Tipopoliza">
                   <option value="1">Cobertura Amplia</option>
                   <option value="2">Daños a tercero</option>
                 </select>
 
               </div>
               <div class="form-group">
-                <label for="">¿Usted ingiere alcohol?</label>
-                <select class="form-control" name="" id="alcohol">
-                  <option>selecciona una opción</option>
-                  <option value="1">Si</option>
-                  <option value="2">No</option>
+                <label for="">ingrese el costo de la Poliza</label>
+                <select class="form-control" name="" id="costopoliza">
+                  <option value="1">$1200</option>
+                  <option value="2">$950</option>
                 </select>
               </div>
               <div class="form-group">
-                <label for="">¿Utiliza lentes?</label>
-                <select class="form-control" name="" id="lentes">
-                  <option>selecciona una opción</option>
-                  <option>Si</option>
-                  <option>No</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="">¿Padece alguna enfermedad?</label>
-                <select class="form-control" name="" id="enfermedad">
-                  <option>Selecciona una opción</option>
-                  <option value="1">Si</option>
-                  <option value="2">No</option>
+                <label for="">Cargos adicionales</label>
+                <select class="form-control" name="" id="cargos">
+                  <option value="1">Ingiere bebidas alcoholicas</option>
+                  <option value="2">Utiliza lentes</option>
+                  <option value="3">Si padece alguna enfermedad</option>
+                  <option value="4">Tiene más de 40 años</option>
+                  <option value="5">Tiene menos de 40 años</option>
                 </select>
               </div>
               <button type="button" name="" id="Total" onclick="Calcularcosto()" class="btn btn-primary" btn-lg btn-block>Calcular costos</button>
-              <div class="alert alert-primary" id="costo" role="alert">Costo de Poliza</div>
-              <div class="alert alert-success" id="cargo" role="alert">Cargos Adicionales</div>
+         
+             
               <div class="alert alert-danger" id="TotalPoliza" role="alert">Costo Total de Poliza</div>
+
+              </div>
+             
+            
             </div>
       </div>
       
