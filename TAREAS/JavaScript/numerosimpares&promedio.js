@@ -9,22 +9,24 @@ function Click(){
 
     var Sumanumerosimpar = document.getElementById("Sumanumerosimpar");
 
-    var contador1 = 0, contador2 = 0,  acumulador= 0, promedio1= 0, suma= 0;
-    for (var i=1; i<=30; i++){
+    var contador1 = 0, contador2 = 0,  sumapares= 0, promedio1= 0, sumaimpares= 0;
+    for (var i=1; i<=10; i++){
 
         var num = Number(prompt("ingresa un nùmero"));
-
+//enumero que introduce si es mayor a 0 y el numero que introduce se divide entre 2 y residuo se compara ==0si, siel numeroes par
         if(num > 0 && num % 2 == 0){
-            contador1++;
-            acumulador+=num;
-            promedio1=acumulador / contador1;
+            contador1++; //contador = contador + 1esta contando cuantos numeros pares son
+            sumapares =num + sumapares;
+            promedio1=sumapares / contador1;
 
         }else{
-            contador2++;
-            suma+=num;
+            contador2++; //cuantos numeros impares se estan contando
+            sumaimpares= num + sumaimpares;
         }
         Sumapromedio.innerText = "El promedio es:" + " " + promedio1;
-        Sumanumerosimpar.innerText = "Suma de los nùmeros impares son:" + " " + suma;
+        Sumanumerosimpar.innerText = "Suma de los nùmeros impares son:" + " " + sumaimpares;
     }
 
 }
+
+//1 2 3 4 5 6 7 8 9 10
