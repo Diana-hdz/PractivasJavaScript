@@ -3,13 +3,17 @@ function EventListener(){
     document.getElementById("num").addEventListener("click",cal());
 }
 function cal(){
-    var año = Number(document.getElementById("año").value);
-    var impAño = document.getElementById("impAño");
+    var numero = Number(document.getElementById("numero").value);
+    var impmens = document.getElementById("impmens");
 
-    if (año/4 || año/100 ) { 
-        impAño.innerText=  año + " " + "es un año bisiesto"; }
-    else {
-        impAño.innerText=  año + " " + "no es año bisiesto";
-    }
+   if(((numero % 4 == 0) && (numero % 100 != 0)) || (numero % 400 == 0))  { 
+        impmens.innerText=  numero + " " + "es un año bisiesto"; }
+   else {
+       impmens.innerText=  numero + " " + "no es año bisiesto";
+  }
+
+
+
+ 
 }
-    
+    //(((numero % 4 == 0) && (numero % 100 != 0)) || (numero % 400 == 0)) 
