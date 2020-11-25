@@ -12,7 +12,7 @@ function Click(){
     var contador1 = 0, contador2 = 0,  sumapares= 0, promedio1= 0, sumaimpares= 0;
 
     var i=1;
-    while (i<=10) {
+    while (i<=30) {
         var num = Number(prompt("ingresa un nùmero")); 
         if(num > 0 && num % 2 == 0){
             contador1++;

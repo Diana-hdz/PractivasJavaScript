@@ -1,3 +1,4 @@
+//Se requiere un algoritmo para determinar, de N cantidades, cuantas son menores o iguales a 0 y cuantas mayores a 0.
 function EventListener(){
     document.getElementById("cal").addEventListener("click", calnum());
 }
