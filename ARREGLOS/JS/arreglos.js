@@ -8,6 +8,8 @@ function MetodosdeArreglos(){
 
     var arreglo4 = ["papel", "hoja", "Sapo", "Pelusa"];
 
+    var arreglo5 = ["Quiero", "aprender"]
+
 
 // agrega el numero al final del arreglo y ademas cuent cuantos numeros son en total
     console.log(ArregloNumeros[5]);
@@ -32,5 +34,19 @@ function MetodosdeArreglos(){
     console.log(arreglo4);
     console.log(arreglo4.sort());
 
-    
+    // pop
+    //Elimia el ultimo arreglo 
+
+
+console.log(ArregloNumeros.pop());
+console.log(ArregloNumeros.slice());
+
+
+console.log(ArregloNumeros.shift());
+console.log(ArregloNumeros.slice());
+
+
+console.log(ArregloNumeros.reverse());
+
+console.log(arreglo5.join( " "));
 }

@@ -8,11 +8,11 @@ function CalcularNumeros(){
 var arreglonumerico = [1,4,2,9,11,44,111,7,4];
 
 // Crear variables para imprimir el resulatdo
-var menoramayor = document.getElementById("imprimirmenoramayor");
-var mayoramenor = document.getElementById("imprimirmayoramenor");
+var imprimirmenoramayor = document.getElementById("imprimirmenoramayor");
+var imprimirmayoramenor = document.getElementById("imprimirmayoramenor");
 
 arreglonumerico.sort();
-imprimirmenormayor.innerText = arreglonumerico.sort(MenoraMayor);
+imprimirmenoramayor.innerText = arreglonumerico.sort(MenoraMayor);
 imprimirmayoramenor.innerText =  arreglonumerico.sort(MayoraMenor);
 
 }
@@ -30,5 +30,5 @@ function MenoraMayor(elem1, elem2){
 }
 
 function MayoraMenor(elem1, elem2){
-     return elem2 -elem1 ;  //else if(elem>elem1);
+     return elem2 - elem1 ;  //else if(elem>elem1);
 }
