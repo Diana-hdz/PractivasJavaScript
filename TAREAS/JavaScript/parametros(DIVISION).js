@@ -9,7 +9,7 @@ function calcuDivision(a,b){
 
     a= 10; b= 5;
 
-para1.innerText = a / b;
+para1.innerText =  a / b;
  
 }
 function calcuDivision2(){
