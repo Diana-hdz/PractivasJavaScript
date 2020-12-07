@@ -19,4 +19,20 @@ localStorage.setItem("objeto", JSON.stringify(Ropa))
    console.log(localStorage.getItem("Nombre"));
     
    //removeItem
+//    Ingreso localstorage y selecciono remove item, con la clave a remover y me elimina la clave y el valor
+localStorage.removeItem("booleano");
+
+// clear
+// Limpiar la informacion que esta en el localstorage
+localStorage.clear();
+
+usuario =  {
+    nombre: "Diana",
+    edad:26
+}
+// Json.stringify es un formato que tiene javascript para guardar un objeto en el localstorage
+localStorage.setItem("usuario", JSON.stringify(usuario));
+// Json.parse es otro formato de javascript para obtener el objeto en el navegador o consola
+console.log(JSON.parse(localStorage.getItem("usuario")));
+
 }
