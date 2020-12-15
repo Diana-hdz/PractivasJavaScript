@@ -1,0 +1,22 @@
+.container{
+    width: 50%;
+    height: 100%;
+    background: teal;
+   
+}
+img{
+    
+    left: 35%;
+    position: relative;
+}
+h1{
+    text-align: left;
+    top:100%;
+    left: 80%;
+    
+}
+.caja{
+    background:rgb(255, 255, 255);
+    border-radius: 2%;
+}
+

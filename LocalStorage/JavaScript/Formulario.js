@@ -14,6 +14,7 @@ function GuardarInformacion(){
 
         localStorage.setItem("Password1", Password1);
         localStorage.setItem("Password", Password1);
+        alert("La informacón se guardo correctamente");
     } else{
         alert("Revisa la contraseña");
     }
@@ -21,7 +22,7 @@ function GuardarInformacion(){
     alert("Revisa la informacón, es incorrecta");
 
 }
-  alert("La informacón se guardo correctamente");
+ 
 }
 
 function ObtenerInformacion(){

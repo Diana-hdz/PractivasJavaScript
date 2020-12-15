@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Marko+One&family=Nosifer&family=Open+Sans+Condensed:wght@300&display=swap');
+hr{
+    size: 2px;
+  padding: #000000;
+    border-width: 2px;
+}
+            
+h2{
+    text-align: center;
+    font-family: Open Sans Condensed;
+}
+h1{
+    text-align: center;
+    font-family: Nosifer;
+}
+.uno{
+font-family: Marko one;
+text-align: center;
+}
+
+.nav-link  {
+float: left;
+margin-left: 50%;
+width: 50%;
+
+}
+#inicio{
+    color: #5500ff;
+}
+#b{
+    color: rgb(0, 0, 0);
+}
+#b:hover{
+      color: #5500ff;
+}
+a > #face{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -500%;
+    margin-top: 90%;
+}
+a > #ins{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -600%;
+    margin-top: 60%;
+}
+a > #tw{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -800%;
+    margin-top: 60%;
+}
+a > #pin{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -1150%;
+    margin-top: 60%;
+}
+a > #con{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -1700%;
+    margin-top: 60%;
+}
+
+.foto{
+    width: 50%;
+    height: 150%;
+    margin-left: 25%;
+   border: solid;
+   color: #000000;
+   margin-top: 5%;
+   top: 100%;
+}
+
+#libro{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    
+    padding: 10px;
+
+}
+.inf{
+    width: 100%;
+   top: 90%;
+    margin-left: 0%;
+    margin: 10px;
+    text-align: center;
+}
+.foto2{
+    width: 50%;
+    height: 150%;
+    margin-left: 25%;
+   border: solid;
+   color: #000000;
+   margin-top: 5%;
+   top: 100%;
+}
+
+#cute{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    
+    padding: 10px;
+
+}
+textarea{
+    width: 100%;
+}
+#btncorreo{
+    /* float: right; */
+    width: 30%;
+    margin-right: 40%;
+}
+.containerC{
+    margin-top: 5%;
+    width: 50%;
+    float: right;
+    margin-right: 29%;
+ 
+
+}
+.container{
+    width: -80%;
+}
+
+#nombre{
+    margin-top: 2%;
+    border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(0, 0, 0);
+} 
+#nombre:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+
+
+ #apellido{
+    border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(5, 5, 5);
+} 
+#apellido:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+
+ #email5{
+    margin-top: 2%;
+  width: 600px;
+  
+   border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgba(224, 22, 120, 1) 
+} 
+textarea{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 1%;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(5, 5, 5);
+}
+textarea:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+#btncorreo{
+    width: 300px;
+    margin-top: 2%;
+    margin-right: 30%;
+    float:right;
+    background-color: rgb(106, 0, 255);
+}
+#btncorreo:hover{
+    background-color: #000000;
+}
+#formulario{
+    width: 50%;
+    justify-content: center;
+    float:right;
+    margin-right: 25%;
+}

@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Marko+One&family=Nosifer&family=Open+Sans+Condensed:wght@300&display=swap');
+hr{
+    size: 2px;
+  padding: #000000;
+    border-width: 2px;
+}
+            
+h2{
+    text-align: center;
+    font-family: Open Sans Condensed;
+}
+h1{
+    text-align: center;
+    font-family: Nosifer;
+}
+.uno{
+font-family: Marko one;
+text-align: center;
+color: #000000;
+}
+.uno:hover{
+    color: #5500ff;
+}
+
+.nav-link  {
+float: left;
+margin-left: 50%;
+width: 50%;
+
+}
+#inicio{
+    color: #5500ff;
+}
+#b{
+    color: rgb(0, 0, 0);
+}
+#b:hover{
+      color: #5500ff;
+}
+a > #face{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -500%;
+    margin-top: 90%;
+}
+a > #ins{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -600%;
+    margin-top: 60%;
+}
+a > #tw{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -800%;
+    margin-top: 60%;
+}
+a > #pin{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -1150%;
+    margin-top: 60%;
+}
+a > #con{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    float:right;
+    margin-right: -1700%;
+    margin-top: 60%;
+}
+
+.foto{
+    width: 50%;
+    height: 150%;
+    margin-left: 25%;
+   border: solid;
+   color: #000000;
+   margin-top: 5%;
+   top: 100%;
+}
+
+#libro{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    
+    padding: 10px;
+
+}
+.inf{
+    width: 100%;
+   top: 90%;
+    margin-left: 0%;
+    margin: 10px;
+    text-align: center;
+}
+
+.correo{
+    
+    height: 150%;
+   
+   color: #000000;
+   margin-top: 5%;
+   top: 100%;
+}
+.texto{
+    float: left;
+    margin-left: 20%;
+    margin-top: -3%;
+    font-family: Abril Fatface;
+   
+}
+label{
+    float: left;
+    margin-left: 60%;
+    margin-top:-4% ;
+}
+#email{
+   width: 20%;
+    margin-left: 60%;
+    float: left;
+    margin-top: -2.5%;
+   
+}
+.subtitulo{
+    font-family: Open Sans Condensed;
+    float: right;
+    margin-right: 70%;
+    margin-top:5% ;
+    font-size: 30px;
+}
+
+#sucribete{
+    position: relative;
+    float: right;
+    margin-right:10%;
+    margin-top: -3.5%;
+    background-color: #9909ff;
+}
+#sucribete:hover{
+    background-color: #000000;
+}
+.cuadro1{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 10%;
+    color: #000000;
+    margin-top: 20%;
+    top: 100%;
+}
+.cute{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+  
+}
+.cute5{
+    font-family:Abril Fatface;
+    font-size: 150%;
+}
+.cute5:hover{
+    color: #5500ff;
+}
+.cute2{
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+.top{
+    margin: 10px;
+}
+.cuadro2{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 10%;
+    color: #000000;
+    margin-top: 40%;
+    top: 100%;   
+}
+.textpiz{ font-family:Abril Fatface;
+        font-size: 170%;
+}
+.textpiz:hover{
+    color: #5500ff;
+}
+.pizza1{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+}
+.pizza2{
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+.pizza{
+    margin: 10px;
+}
+.cuadro3{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 10%;
+    color: #000000;
+    margin-top: 60%;
+    top: 100%;   
+}
+.mov{
+    font-family:Abril Fatface;
+    font-size: 150%;
+}
+.mov:hover{
+    color: #5500ff;
+}
+.palomitas{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+}
+.textpalo{
+    width: 70%;
+    float: right;
+    margin-top: 2%;
+}
+.lv{
+    border-left: 1px solid rgb(0, 0, 0);
+  height: 1100px;
+  position: absolute;
+  left: 65%;
+  margin-left: -3px;
+  top: 128%;
+}
+.texizq{
+    float: left;
+    margin-left: 80%;
+    margin-top: -2%;
+    font-family: Open Sans Condensed;
+    font-size: 30px;
+
+}
+.pensando{
+    width: 300px;
+    height: 180px;
+    float: right;;
+    margin-right: 10%;
+    margin-top: 2%;
+    border: black 1px solid
+}
+.parrafo{
+    float: left;
+    margin-left: 70%;
+    margin-top: 3%;
+}
+.Follow{
+    float: left;
+    margin-left: 70%;
+    margin-top: 2%;
+    font-family:  Open Sans Condensed;;
+}
+
+.avion{
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-right: 18%;
+    margin-top: 3%;
+}
+.playa{
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-right: -29%;
+    margin-top: 3%;
+}
+.sepia{
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-right: -29%;
+    margin-top: 15%;
+}
+.insta{
+    width: 200px;
+    height: 150px;
+    float: right;
+    margin-right: -12.7%;
+    margin-top: 15%;
+}
+
+
+
+.fine{
+    text-align: center;
+    margin-top: 5%;
+    font-family: Abril Fatface;
+}
+.lineanegra{
+    width: 100%;
+    border: 1px solid;
+ margin-top: 75%;  
+}
+.foto2{
+  
+    position: absolute;
+   
+ 
+}
+#hombre{
+    width: 90%;
+    height: 70%;
+    border: 1px solid #000000;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.texabout{
+  margin-left: 25%;
+  margin-top: 5%;
+  font-family:Open Sans Condensed; 
+
+}
+.parraf{
+    margin-left: 30%;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lineanegra{
+    width: 100%;
+    border: 1px solid;
+ margin-top: 75%;  
+}
+
+.cuadro10{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 10%;
+    color: #000000;
+    margin-top: -30%;
+    top: 100%;
+}
+.cute10{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+  
+}
+
+.cute20{
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+.top05{
+    margin: 10px;
+}
+.cuadro20{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 40%;
+    color: #000000;
+    margin-top: -10%;
+    top: 100%;   
+}
+.pizza10{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+}
+.pizza01{
+    width: 70%;
+    float: right;
+    margin-top: 5%;
+}
+.pizza20{
+    margin: 10px;
+}
+.cuadro30{
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border: black 1px solid;
+    margin-left: 10%;
+    color: #000000;
+    margin-top: 10%;
+    top: 100%;   
+}
+.palomitaas{
+    width: 200px;
+    height: 180px;
+    float:left;
+    margin: 10px;
+}
+.textpalom{
+    width: 70%;
+    float: right;
+    margin-top: 2%;
+}
+.textpalom:hover{
+    color: #5500ff;
+}
+
+.blog{
+    margin-top:-0%
+    }
+
+.blo{
+ 
+    margin-top: 70%;
+}
+
+.container{
+    width: -80%;
+}
+
+#nombre{
+    margin-top: 2%;
+    border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(0, 0, 0);
+} 
+#nombre:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+
+
+ #apellido{
+    border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(5, 5, 5);
+} 
+#apellido:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+
+ #email5{
+    margin-top: 2%;
+  width: 600px;
+  
+   border-width: 0 0 2px 0 ;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgba(224, 22, 120, 1) 
+} 
+textarea{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 1%;
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid #fffefe;
+    border-color: rgb(5, 5, 5);
+}
+textarea:hover{
+    border-color: rgb(106, 0, 255);
+    cursor: pointer;
+}
+#btncorreo{
+    width: 300px;
+    margin-top: 2%;
+    margin-right: 30%;
+    float:right;
+    background-color: rgb(106, 0, 255);
+}
+#btncorreo:hover{
+    background-color: #000000;
+}
+#formulario{
+    width: 50%;
+    justify-content: center;
+    float:right;
+    margin-right: 25%;
+}
+#email2{
+    margin-top: 2%;
+   
+}
+    
